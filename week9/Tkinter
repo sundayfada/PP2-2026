@@ -198,7 +198,7 @@ def main():
       print("\n[1. 건강정보 등록 마술]")
       name = input("이름: ").strip()
       try:
-        birth_year = int(input("생년 (예: 1995): "))
+        birth_year = int(input("생년 (예: 1999): "))
         gender = input("성별 (남/여): ").strip()
         height = float(input("키(cm): "))
         weight = float(input("몸무게(kg): "))
